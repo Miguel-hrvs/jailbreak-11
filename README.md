@@ -9,6 +9,12 @@ This is an experimental jailbreak for PS4 11.00 or lower using TheFloW disclosed
 - Linux
   - A VM running Linux may not work
 
+## Build instructions
+- Install cargo on your linux distro
+- Download the repo as .zip and unpack it
+- Go with your linux terminal to the unpacked folder
+- write: cargo rustc
+
 ## Setup
 
 You need to connect the PS4 and the computer with an Ethernet cable **without** any Ethernet switch in the middle.
