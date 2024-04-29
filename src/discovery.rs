@@ -62,6 +62,7 @@ impl DiscoveryServer {
             match ty {
                 0 => match data.code() {
                     0x19 => self.parse_padr(addr, data),
+                    0xA7 => self.parse_padr(addr, data),
                     _ => eprintln!(
                         "Unexpected PPPoE discovery unicast packet {} from {}.",
                         data.code(),
